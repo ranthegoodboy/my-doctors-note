@@ -4,8 +4,8 @@ import CtaButton from "./homepage/cta-button";
 
 const PeaceOfMind = () => {
   return (
-    <section className="w-full py-4 bg-white">
-      <div className="px-4 mx-auto text-center pb-4">
+    <section className="pb-4 mt-1 w-full bg-white">
+      <div className="px-4 pb-4 mx-auto text-center">
         <h2 className="text-[32px] md:text-5xl font-semibold tracking-wide md:mb-2">
           Get Peace of Mind
         </h2>
@@ -15,8 +15,8 @@ const PeaceOfMind = () => {
         <div className="flex justify-center mb-4">
           <Image src="/images/line-dark.svg" width={263} height={8} alt="" />
         </div>
-        <div className="text-gray-600 flex justify-center mb-5 text-lg text-left">
-          <div className="flex flex-col">
+        <div className="flex justify-center mb-5 text-lg text-left text-gray-600">
+          <div className="flex flex-col leading-tight">
             <div>{`My Doctor’s Note provides a fast, hassle-free solution for`}</div>
             <div>{`obtaining excuse notes. Focus on your recovery while we`}</div>
             <div>{`take care of the paperwork, delivering your note in minutes.`}</div>
@@ -26,10 +26,10 @@ const PeaceOfMind = () => {
         <div className="grid md:grid-cols-2 gap-[18px] mb-12">
           <div className="grid gap-[18px]">
             <div className="px-4 py-5 bg-[#d8e8fd] rounded-md">
-              <h3 className="text-2xl font-semibold text-left tracking-wide">
+              <h3 className="text-2xl font-semibold tracking-wide text-left">
                 Trusted by Thousands Across the USA
               </h3>
-              <div className="space-y-5 mt-5">
+              <div className="mt-5 space-y-5">
                 <div className="flex gap-2 text-[#585858] tracking-wide">
                   <Image src="/images/dot.svg" width={3} height={3} alt="" />
                   <div className="text-left">
@@ -64,7 +64,7 @@ const PeaceOfMind = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-8 md:gap-14 mt-5 px-4">
+              <div className="flex gap-8 px-4 mt-5 md:gap-14">
                 <Image
                   src="/images/walmart.svg"
                   alt=""
@@ -81,10 +81,10 @@ const PeaceOfMind = () => {
               </div>
             </div>
             <div className="px-4 py-5 bg-[#d8e8fd] rounded-md">
-              <h3 className="text-2xl font-semibold text-left tracking-wide">
+              <h3 className="text-2xl font-semibold tracking-wide text-left">
                 Customer Support That Puts You First
               </h3>
-              <div className="space-y-5 mt-5">
+              <div className="mt-5 space-y-5">
                 <div className="flex gap-2 text-[#585858] tracking-wide">
                   <Image src="/images/dot.svg" width={3} height={3} alt="" />
                   <div className="text-left">
@@ -115,7 +115,7 @@ const PeaceOfMind = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-9 items-center mt-8 pb-3">
+              <div className="flex gap-9 items-center pb-3 mt-8">
                 <Image src="/images/help.png" alt="" width={234} height={50} />
                 <div className="text-[#00C48C] font-bold text-[14px] md:text-[22px]">{`We're ready to help!`}</div>
               </div>
@@ -124,10 +124,10 @@ const PeaceOfMind = () => {
 
           <div className="grid gap-[18px]">
             <div className="px-4 pt-5 pb-7 bg-[#d8e8fd] rounded-md max-h-content">
-              <h3 className="text-2xl font-semibold text-left tracking-wide">
+              <h3 className="text-2xl font-semibold tracking-wide text-left">
                 Get Your Note In Under 1 Minute
               </h3>
-              <div className="space-y-5 mt-5">
+              <div className="mt-5 space-y-5">
                 <div className="flex gap-2 text-[#585858] tracking-wide">
                   <Image src="/images/dot.svg" width={4} height={4} alt="" />
                   <div className="text-left">
@@ -160,7 +160,7 @@ const PeaceOfMind = () => {
               </div>
             </div>
             <div className="px-4 py-5 bg-[#d8e8fd] rounded-md max-h-max">
-              <h3 className="text-2xl font-semibold text-center tracking-wide">
+              <h3 className="text-2xl font-semibold tracking-wide text-center">
                 The Best Price In The Market
               </h3>
               <div className="text-[#585858] text-3xl mt-10 mb-8 font-semibold line-through">

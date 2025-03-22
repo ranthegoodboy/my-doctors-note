@@ -30,10 +30,10 @@ const footerList = [
 const Footer = () => {
   return (
     <footer
-      className={`w-full pt-12 pb-7 md:pb-10 bg-white border-t border-gray-200 mt-24 ${assistant.className}`}
+      className={`w-full pt-10 pb-7 md:pb-10 bg-white border-t border-gray-200 mt-20 ${assistant.className}`}
     >
-      <div className="boxed-container px-12 mx-auto">
-        <div className="grid md:grid-cols-4 gap-12 md:gap-8">
+      <div className="mx-auto boxed-container">
+        <div className="grid gap-12 md:grid-cols-4 md:gap-8">
           <div className="flex flex-col gap-5">
             <Image
               src="/images/dn-logo.webp"
@@ -43,11 +43,11 @@ const Footer = () => {
             />
 
             <div className="text-[rgba(18,18,18,0.75)] mt-1">
-              <span className="font-bold ">Support</span>
+              <span className="font-bold">Support</span>
               {` (Mon-Fri, 9am-6pm EST)`}
             </div>
             <div className="text-[rgba(18,18,18,0.75)]">
-              <span className="font-bold ">Email:</span>
+              <span className="font-bold">Email:</span>
               {` help@urgentsupport.co`}
             </div>
           </div>
@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center text-[rgba(18,18,18,0.75)] text-xs mt-16 border-t border-gray-200 pt-5 md:pt-12">
+      <div className="text-center text-[rgba(18,18,18,0.75)] text-xs mt-12 border-t border-gray-200 pt-5 md:pt-11">
         © 2025, My Doctors Note
       </div>
     </footer>

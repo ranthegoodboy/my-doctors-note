@@ -25,18 +25,20 @@ const steps = [
 
 const EasySteps = () => {
   return (
-    <section className="w-full pt-9 bg-white">
+    <section className="pt-9 w-full bg-white">
       <div className="mx-auto text-center">
         <h2 className="text-[30px] md:text-5xl font-semibold md:mb-2">{`Get An Online Doctor's`}</h2>
         <h2 className="text-[30px] md:text-5xl font-semibold mb-4">
           Note In 3 Easy Steps
         </h2>
-        <div className="text-gray-600 max-w-2xl mb-9 text-left text-lg px-4 md:px-0 tracking-wide">
-          With our online platform we make it quick and simple for you to obtain
-          a doctors note, so you can focus on rest and recovery.
+        <div className="flex justify-center">
+          <div className="px-4 mb-9 max-w-2xl text-lg tracking-wide text-left text-gray-600 md:px-0">
+            With our online platform we make it quick and simple for you to
+            obtain a doctors note, so you can focus on rest and recovery.
+          </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 px-6 pb-8 ">
+        <div className="grid gap-6 px-6 pb-8 md:grid-cols-3">
           {steps.map((step) => (
             <div key={step.title}>
               <div className="bg-[#d9e9fe] pt-6 px-6 pb-12 rounded-lg">
@@ -49,8 +51,8 @@ const EasySteps = () => {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="font-semibold text-2xl mb-4">{step.title}</h3>
-                <p className="text-sm text-gray-600 text-left tracking-wide">
+                <h3 className="mb-4 text-2xl font-semibold">{step.title}</h3>
+                <p className="text-sm tracking-wide text-left text-gray-600">
                   {step.description}
                 </p>
               </div>
