@@ -14,10 +14,10 @@ const CtaButton = ({
         {ctaText}
         <Image src="/images/arrow-right.svg" width={18} height={18} alt="" />
       </button>
-      <div className="flex items-center mt-4 text-white gap-4">
+      <div className="flex gap-4 items-center mt-3 text-white">
         <Image src="/images/guard.svg" width={32} height={33} alt="" />
         <span
-          className={`text-[13px] md:text-[16px] tracking-wide ${descriptionTextColor}`}
+          className={`tracking-wide text-[13px] md:text-[16px] ${descriptionTextColor}`}
         >
           100% Risk-Free Money Back Guarantee
         </span>

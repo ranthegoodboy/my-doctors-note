@@ -13,12 +13,12 @@ const Hero = () => {
     >
       <div className="absolute inset-0 bg-black/50 z-[1]"></div>
       <div className="container px-4 z-[2] text-center">
-        <h1 className="text-[28px] md:text-[50px] tracking-wide font-semibold text-white mb-3">
+        <h1 className="text-[28px] md:text-[50px] tracking-wide font-semibold text-white leading-tight mb-2">
           {`Your Doctor's Note`}
           <br />
           In 1 Minute, for $29.99!
         </h1>
-        <div className="flex justify-center mb-7">
+        <div className="flex justify-center mb-6">
           <Image src="/images/line.svg" width={434} height={10} alt="" />
         </div>
         <CtaButton ctaText=" Get your Note Now" />
