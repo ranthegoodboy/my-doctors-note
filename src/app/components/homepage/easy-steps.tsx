@@ -27,12 +27,14 @@ const EasySteps = () => {
   return (
     <section className="pt-9 w-full bg-white">
       <div className="mx-auto text-center">
-        <h2 className="text-[30px] md:text-5xl font-semibold md:mb-2">{`Get An Online Doctor's`}</h2>
-        <h2 className="text-[30px] md:text-5xl font-semibold mb-4">
-          Note In 3 Easy Steps
-        </h2>
+        <div className="leading-tight md:leading-normal">
+          <h2 className="text-[30px] md:text-5xl font-semibold md:mb-2">{`Get An Online Doctor's`}</h2>
+          <h2 className="text-[30px] md:text-5xl font-semibold mb-4">
+            Note In 3 Easy Steps
+          </h2>
+        </div>
         <div className="flex justify-center">
-          <div className="px-4 mb-9 max-w-2xl text-lg tracking-wide text-left text-gray-600 md:px-0">
+          <div className="px-4 mb-9 max-w-2xl tracking-wide text-left text-gray-600 md:text-lg md:px-0">
             With our online platform we make it quick and simple for you to
             obtain a doctors note, so you can focus on rest and recovery.
           </div>

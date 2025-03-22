@@ -24,8 +24,8 @@ const Header = () => {
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <nav className="w-full bg-white py-[28px] flex justify-center border-b border-gray-300">
-        <div className="container px-4 flex justify-center">
+      <nav className="w-full bg-white py-[18px] md:py-[28px] flex justify-center border-b border-gray-300">
+        <div className="container flex justify-center px-4">
           <div className="flex items-center">
             <Image
               src="/images/dn-logo.webp"

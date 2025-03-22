@@ -5,7 +5,7 @@ import CtaButton from "./cta-button";
 const Hero = () => {
   return (
     <section
-      className="w-full bg-cover bg-center min-h-[503px] flex items-center justify-center relative mt-[86px]"
+      className="w-full bg-cover bg-center min-h-[326px] md:min-h-[503px] flex items-center justify-center relative mt-[59px] md:mt-[86px]"
       style={{
         backgroundImage: "url('/images/hero.webp')",
         objectFit: "cover",
